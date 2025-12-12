@@ -1,0 +1,61 @@
+# Compiled class files
+*.class
+*.jar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Allure
+.allure/
+allure-results/
+allure-report/
+
+# Test results
+surefire-reports/
+test-output/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.local
+
+# Database
+*.db
+*.sqlite
