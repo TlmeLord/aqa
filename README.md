@@ -54,12 +54,15 @@ mvn clean compile
 Используйте готовый лаунчер для полного цикла тестирования:
 
 ```bash
-# Скомпилируйте и запустите лаунчер
+# Скомпилируйте и запустите
 javac -cp "src/test/java" src/test/java/MainMenu.java
+javac -cp "src/test/java" src/test/java/MockServer.java
 java -cp "src/test/java" MainMenu
 ```
 
 ### Ручной запуск по шагам
+
+#### 0. Компиляция Mock и меню (см. выше)
 
 #### 1. Запуск Mock сервера
 Mock сервер имитирует внешний сервис для тестирования:
