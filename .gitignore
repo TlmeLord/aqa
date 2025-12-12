@@ -2,6 +2,9 @@
 *.class
 *.jar
 
+# Except the main application JAR (needed for testing)
+!internal-0.0.1-SNAPSHOT.jar
+
 # Maven
 target/
 pom.xml.tag
@@ -59,3 +62,4 @@ test-output/
 # Database
 *.db
 *.sqlite
+
