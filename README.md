@@ -33,7 +33,7 @@
 
 ### 1. Клонирование репозитория
 ```bash
-git clone https://github.com/TlmeLord/AQATest.git
+git clone https://github.com/TlmeLord/aqa
 cd aqa
 ```
 
